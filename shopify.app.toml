@@ -1,0 +1,36 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "25d3c162479f8210a98a9574786e4170"
+application_url = "https://financing-conditional-medieval-ignore.trycloudflare.com"
+embedded = true
+name = "frontend"
+handle = "frontend-25"
+
+[build]
+include_config_on_deploy = true
+automatically_update_urls_on_dev = true
+
+[webhooks]
+api_version = "2025-01"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/uninstalled" ]
+  uri = "/webhooks/app/uninstalled"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/scopes_update" ]
+  uri = "/webhooks/app/scopes_update"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_products, write_products"
+
+[auth]
+redirect_urls = [
+  "https://financing-conditional-medieval-ignore.trycloudflare.com/auth/callback",
+  "https://financing-conditional-medieval-ignore.trycloudflare.com/auth/shopify/callback",
+  "https://financing-conditional-medieval-ignore.trycloudflare.com/api/auth/callback"
+]
+
+[pos]
+embedded = false
