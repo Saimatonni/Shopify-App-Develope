@@ -19,6 +19,23 @@ Before you begin, ensure you have the following installed:
 - **Shopify Partner Account**
 - **Shopify Store (Development Store recommended)**
 
+## Demo
+
+### Here is the demo link : https://drive.google.com/file/d/1SyfIeoaCXLBVrgp1zEMFM0Z-t-tTYJii/view?usp=drive_link
+
+### Creating a Collection
+
+1. Click on **Add Folder**.
+2. Enter a **Title** and select **Priority**.
+3. Search or browse products and add them to the collection.
+4. Click **Save**.
+
+### Managing Collections
+
+- **Search** for collections using the search bar.
+- **Filter** collections by priority.
+- **Delete** collections using the red delete button.
+
 ## Installation
 
 ### 1. Clone the repository
@@ -75,21 +92,5 @@ To deploy, you can use **Vercel**, **Railway**, or **Heroku**. Make sure to:
 - Run database migrations (`npx prisma migrate deploy`).
 - Use `npm run build && npm start` for production.
 
-## Demo
-
-### Here is the demo link : https://drive.google.com/file/d/1SyfIeoaCXLBVrgp1zEMFM0Z-t-tTYJii/view?usp=drive_link
-
-### Creating a Collection
-
-1. Click on **Add Folder**.
-2. Enter a **Title** and select **Priority**.
-3. Search or browse products and add them to the collection.
-4. Click **Save**.
-
-### Managing Collections
-
-- **Search** for collections using the search bar.
-- **Filter** collections by priority.
-- **Delete** collections using the red delete button.
 
 
