@@ -41,8 +41,8 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the repository
 
 ```sh
-git clone https://github.com/yourusername/shopify-collections-app.git
-cd shopify-collections-app
+git clone https://github.com/Saimatonni/Shopify-App-Develope.git
+cd Shopify-App-Develope
 ```
 
 ### 2. Install dependencies
