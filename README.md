@@ -1,6 +1,6 @@
 # Shopify Collections App
 
-This is a Shopify app built using **Remix.js**, **Polaris**, **Prisma**, and **MySQL**. The app allows Shopify merchants to organize products into custom collections by creating, viewing, and editing collections with priority levels and associated products.
+This is a Shopify app built using **Remix.js**, **Polaris**, **Prisma**, and **MySQL**.
 
 ## Features
 
